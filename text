@@ -1,1 +1,9 @@
 https://pip.pypa.io/en/stable/installing/
+
+pipenv installation process:
+
+sudo export PATH="/home/$USER/.local/bin:$PATH" &&
+apt install python3 python3-pip -y &&
+python3 -m pip install --user pip &&
+python3 -m pip install --user pipenv &&
+python3 -m pipenv check
